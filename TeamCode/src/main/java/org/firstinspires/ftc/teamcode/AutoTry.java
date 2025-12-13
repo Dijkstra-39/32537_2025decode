@@ -51,17 +51,11 @@ public class AutoTry extends LinearOpMode {
         frontLeft.setDirection(DcMotorSimple.Direction.REVERSE);
         backLeft.setDirection(DcMotorSimple.Direction.REVERSE);
 
-
         waitForStart();
 
         moveDrive(1, 0, 0);
-        sleep(1000);
+        sleep(200);
         moveDrive(0, 0, 0);
-       // shooter.setPower(1);
-        sleep(500);
-       // shooter.setPower(0);
-        moveDrive(-1, 0, 0);
-        sleep(1000);
-        moveDrive(0, 0, 0);
+
     }
 }

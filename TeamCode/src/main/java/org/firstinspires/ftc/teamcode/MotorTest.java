@@ -10,7 +10,7 @@ public class MotorTest extends LinearOpMode {
     private DcMotor frontLeft;
     private DcMotor frontRight;
     private DcMotor backLeft;
-    private DcMotor backRight;
+    private   DcMotor backRight;
 
     private DcMotor shooterRight;
     private DcMotor shooterLeft;
